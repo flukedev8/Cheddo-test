@@ -11,7 +11,7 @@ router.get('/',(req, res) =>{
 
 router.post('/maxmin', maxmincontroller);
 router.post('/findstr', findstrcontroller);
-router.post('/findstr', require("../controllers/checkbracketcontroller"));
+router.post('/checkbracket', require("../controllers/checkbracketcontroller"));
 
 
 module.exports = router;
